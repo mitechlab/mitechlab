@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Poetessa Luxury Perfum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/download (13).png" type="image/x-icon"> 
+  <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom fonts for a clean, minimalist feel */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background-color: #1a202c; /* Deep, rich slate background */
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">POETESSA</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="Collection.html">Collection</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+</body>
+<body class="text-stone-100">
+    <!-- Main Scent Consultation Section -->
+    <section class="py-16 md:py-24 px-6 md:px-12 flex items-center justify-center min-h-screen">
+        <div class="max-w-2xl w-full bg-[#2a2c3a] p-8 md:p-12 rounded-3xl shadow-2xl border border-stone-700">
+            <!-- Header and Description -->
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+                    Discover your <span class="relative">signature
+                        <span class="absolute left-0 right-0 bottom-0 h-1 bg-amber-500 rounded-full"></span>
+                    </span> scent
+                </h1>
+                <p class="text-lg md:text-xl text-stone-300 mt-4 leading-relaxed max-w-xl mx-auto">
+                    Begin your journey to a fragrance that is uniquely yours. Our bespoke consultation will guide you in crafting a scent that perfectly expresses your individuality.
+                </p>
+            </div>
+            
+            <!-- Scent preference form section -->
+            <div class="mb-10">
+                <h2 class="text-3xl font-bold mb-6 text-amber-500 text-center">Scent Consultation</h2>
+                <div class="space-y-6">
+                    <div>
+                        <label for="scent-preference" class="block text-sm font-medium mb-2 text-stone-300">Scent Preferences *</label>
+                        <select id="scent-preference" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm">
+                            <option>Please Select</option>
+                            <option>Floral & Sweet</option>
+                            <option>Woody & Earthy</option>
+                            <option>Citrus & Fresh</option>
+                            <option>Spicy & Warm</option>
+                            <option>Aquatic</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact information form section -->
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-amber-500 text-center">Your Information</h2>
+                <p class="text-sm mb-6 text-stone-400 text-center">Please provide your contact and delivery details to proceed with your order.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="first-name" class="block text-sm font-medium mb-2 text-stone-300">First name *</label>
+                        <input type="text" id="first-name" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="last-name" class="block text-sm font-medium mb-2 text-stone-300">Last name *</label>
+                        <input type="text" id="last-name" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium mb-2 text-stone-300">Email *</label>
+                        <input type="email" id="email" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm" required>
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium mb-2 text-stone-300">Phone number *</label>
+                        <input type="tel" id="phone" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm" required>
+                    </div>
+                    <div class="col-span-full">
+                        <label for="delivery-address" class="block text-sm font-medium mb-2 text-stone-300">Delivery Address *</label>
+                        <textarea id="delivery-address" rows="3" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm" required></textarea>
+                    </div>
+                    <div>
+                        <label for="state" class="block text-sm font-medium mb-2 text-stone-300">State/region *</label>
+                        <select id="state" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm">
+                            <option>Please Select</option>
+                            <option>Abuja</option>
+                            <option>Lagos</option>
+                            <option>Kano</option>
+                            <option>Ogun</option>
+                            <option>Suleja</option>
+                            <option>Ibadan</option>
+                            <!-- Add more states as needed -->
+                        </select>
+                    </div>
+                    <div>
+                        <label for="occasion" class="block text-sm font-medium mb-2 text-stone-300">Scent for what occasion? *</label>
+                        <select id="occasion" class="w-full px-4 py-3 bg-slate-700 border border-stone-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 transition duration-200 shadow-sm">
+                            <option>Please Select</option>
+                            <option>Daily Wear</option>
+                            <option>Special Occasion</option>
+                            <option>Corporate</option>
+                            <option>Night Out</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Paystack integration call-to-action -->
+                <button type="submit" class="mt-8 w-full px-6 py-4 bg-amber-500 text-stone-900 font-bold rounded-xl shadow-lg hover:bg-amber-600 transition duration-300 transform hover:scale-105">Proceed to Payment</button>
+      <script>
+        // Check if the PaystackPop object exists before trying to use it
+        if (typeof PaystackPop === 'undefined') {
+            console.error('Paystack script not loaded. Please check the internet connection or the script URL.');
+        } else {
+            // Get all the "Buy Now" buttons
+            const buyButtons = document.querySelectorAll('.buy-now-button');
+
+            // Loop through each button and add a click event listener
+            buyButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    console.log('Button clicked! Opening Paystack popup.');
+                    // Get the amount and product name from the data attributes
+                    const amount = button.dataset.amount;
+                    const productName = button.dataset.product;
+
+                    // You will need to replace these with your own values
+                    const PAYSTACK_PUBLIC_KEY = 'pk_test_15d6f27f357e0ef5fd02c83f15e6b00c3a398829'; // Replace with your actual Paystack public key
+                    const CUSTOMER_EMAIL = 'maryamhkhalid@gmail.com'; // You can get this from a form or use a placeholder
+
+                    // Initialize a new Paystack handler
+                    var handler = PaystackPop.setup({
+                        key: PAYSTACK_PUBLIC_KEY,
+                        email: CUSTOMER_EMAIL,
+                        amount: amount, // Amount is in kobo, so 250000 means ₦2,500.00
+                        currency: 'NGN',
+                        ref: '' + Math.floor((Math.random() * 1000000000) + 1), // a unique reference to prevent duplicate payments
+                        metadata: {
+                            custom_fields: [
+                                {
+                                    display_name: 'Product',
+                                    variable_name: 'product_name',
+                                    value: productName
+                                }
+                            ]
+                        },
+                        // What to do on success
+                        callback: function(response){
+                            // The reference is a unique transaction ID
+                            const ref = response.reference;
+                            alert('Payment complete! Transaction reference: ' + ref);
+                            // You can send this reference to your server to verify the transaction
+                        },
+                        // What to do on close
+                        onClose: function(){
+                            alert('Payment popup closed.');
+                        }
+                    });
+
+                    // Open the payment popup
+                    handler.openIframe();
+                });
+            });
+        }
+    </script>
+     
+</body>
+</html>
+
+
+
